@@ -134,7 +134,7 @@ Built with **Streamlit** and **LangChain**, this agent acts as a "Professional S
 
 ---
 
-## 🏗️ Architecture
+## Architecture
 
 The application follows an **Iterative Reasoning Loop**: `Input` $\rightarrow$ `LLM Reasoning` $\rightarrow$ `Dynamic Tool Selection` $\rightarrow$ `Recursive Execution` $\rightarrow$ `Natural Language Summary`.
 
@@ -173,7 +173,7 @@ graph TD
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 
@@ -200,7 +200,7 @@ streamlit run example_2.py
 
 ---
 
-## ⚙️ Logic & Implementation Details
+## Logic & Implementation Details
 
 ### Tool-Centric Design
 
