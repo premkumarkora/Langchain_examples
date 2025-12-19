@@ -136,7 +136,7 @@ Built with **Streamlit** and **LangChain**, this agent acts as a "Professional S
 
 ---
 
-## 🏗️ Architecture
+## Architecture
 
 The application follows an **Iterative Reasoning Loop**: `Input` $\rightarrow$ `LLM Reasoning` $\rightarrow$ `Dynamic Tool Selection` $\rightarrow$ `Recursive Execution` $\rightarrow$ `Natural Language Summary`.
 
@@ -167,7 +167,7 @@ graph TD
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 
 * `example_2.py`: The core application containing the Streamlit UI, Agent definitions, and Tool logic.
 * `example_2_Requirements.md`: Outlines the goals for demonstrating advanced AI reasoning and multi-intent handling.
@@ -175,7 +175,7 @@ graph TD
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 
