@@ -118,6 +118,8 @@ current_price = f_info.get('lastPrice') or f_info.get('regularMarketPrice') or 0
 
 # Example 2
 
+
+```markdown
 # Agentic Stock Analyst
 
 This project demonstrates an **Agentic AI** workflow. Unlike standard scripts that follow a linear path, this application utilizes an **LLM-driven reasoning loop** to autonomously decide which tools to use based on natural language user inputs.
@@ -134,7 +136,7 @@ Built with **Streamlit** and **LangChain**, this agent acts as a "Professional S
 
 ---
 
-## Architecture
+## 🏗️ Architecture
 
 The application follows an **Iterative Reasoning Loop**: `Input` $\rightarrow$ `LLM Reasoning` $\rightarrow$ `Dynamic Tool Selection` $\rightarrow$ `Recursive Execution` $\rightarrow$ `Natural Language Summary`.
 
@@ -146,7 +148,7 @@ graph TD
     UI -->|History + Query| Agent[LangChain Agent Executor]
     
     subgraph "The Reasoning Engine"
-        Agent -->|Prompt| LLM[LLM (gpt-4.1-nano)]
+        Agent -->|Prompt| LLM["LLM (gpt-4.1-nano)"]
         LLM -->|Decision: Call Tool?| Router{Router}
         
         Router -->|Yes: Need Price| T1[Tool: get_stock_price]
@@ -173,7 +175,7 @@ graph TD
 
 ---
 
-## Getting Started
+## 🚀 Getting Started
 
 ### Prerequisites
 
@@ -200,7 +202,7 @@ streamlit run example_2.py
 
 ---
 
-## Logic & Implementation Details
+## ⚙️ Logic & Implementation Details
 
 ### Tool-Centric Design
 
