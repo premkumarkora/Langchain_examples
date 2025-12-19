@@ -119,7 +119,7 @@ current_price = f_info.get('lastPrice') or f_info.get('regularMarketPrice') or 0
 # Example 2
 
 
-```markdown
+
 # Agentic Stock Analyst
 
 This project demonstrates an **Agentic AI** workflow. Unlike standard scripts that follow a linear path, this application utilizes an **LLM-driven reasoning loop** to autonomously decide which tools to use based on natural language user inputs.
